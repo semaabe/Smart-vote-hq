@@ -1,0 +1,10 @@
+version: 1
+services:
+  - type: web
+    name: smart-vote
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "gunicorn app:app -b 0.0.0.0:3000"
+    autoDeploy: true  # Optional: automatically deploy on git push
+    envVars:
+      SOME_ENV_VAR: "value"  # Add any environment variables you need
