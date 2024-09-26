@@ -17,6 +17,20 @@ p1{
     padding: 40px; 
     
 }
+p2{
+    color: #DD573A;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+   
+}
+p3{
+    color: #DD573A;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
 
 h2{
     text-align: center;
